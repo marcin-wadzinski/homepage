@@ -1,0 +1,51 @@
+body {
+    background:#E5E5E5;
+}
+
+section {
+    background:#E5E5E5;
+}
+
+.main-header{
+    color:#4E4232;
+}
+
+p{
+    color:black;
+}
+
+h2{
+    color:navy;
+}
+
+article{
+    color:red;
+}
+
+footer{
+    color:blue;
+}
+
+.turkus-hot {
+    color:turquoise;
+}
+
+#top {
+    background:rgb(86, 62, 143);
+}
+
+nav a{color:#FCA311;
+}
+
+a {
+    color:#FCA311
+}
+
+.hotpink {
+    color:#EDBF85;
+}
+
+.green-link {
+    color:green
+}
+
