@@ -1,9 +1,5 @@
 body {
-    background:#E5E5E5;
-}
-
-section {
-    background:#E5E5E5;
+    background:white
 }
 
 
@@ -18,10 +14,11 @@ footer{
 
 .turkus-hot {
     color:turquoise;
+    padding-left: 700px;
 }
 
 
-nav a{color:#FCA311
+nav a{color:navy
 }
 
 
@@ -36,10 +33,35 @@ a {
 }
 
 .green-link {
-    color:green
+    
+    color:orange;
+    height: 50px;
+    weight: 2000px;
+    font-size: 200%;
+    padding-left: 600px;
+}
+
+.green-link-2 {
+
+    color:yellow;
+    padding-left: 500px;
+    font-size: 200%;
 }
 
 
 #main-header{ 
-    color:brown
+
+    color:brown;
+    padding-left: 400px;
+    font-family:Helvetica;
+    font-size: 400%;
+}
+
+img {
+
+    padding-top:0px;
+    padding-left: 100px;
+
+    
+
 }
