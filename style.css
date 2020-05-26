@@ -1,67 +1,59 @@
 body {
-    background:white
+  background: whitesmoke;
 }
 
-
-p{
-    color:black;
+p {
+  color: black;
 }
 
-
-footer{
-    color:blue;
+footer {
+  color: blue;
 }
 
 .turkus-hot {
-    color:turquoise;
-    padding-left: 700px;
+  color: turquoise;
 }
 
-
-nav a{color:navy
+nav a {
+  color: navy;
 }
-
 
 a {
-    color:red
+  color: red;
 }
 
-
 .hotpink {
-    color:#EDBF85;
-
+  color: #edbf85;
 }
 
 .green-link {
-    
-    color:orange;
-    height: 50px;
-    weight: 2000px;
-    font-size: 200%;
-    padding-left: 600px;
+  color: orange;
 }
 
 .green-link-2 {
-
-    color:yellow;
-    padding-left: 500px;
-    font-size: 200%;
+  color: purple;
+}
+#main-header {
+  color: brown;
 }
 
-
-#main-header{ 
-
-    color:brown;
-    padding-left: 400px;
-    font-family:Helvetica;
-    font-size: 400%;
+.navigation {
+  width: 300px;
+  height: 50px;
+  display: inline;
 }
 
-img {
+.navigation__index--stronagłówna {
+  color: red;
+  background: lawngreen;
+}
 
-    padding-top:0px;
-    padding-left: 100px;
+.navigation__index--naukahtml {
+  color: pink;
+  background: turquoise;
+}
 
-    
-
+.navigation__index--tajlandia {
+  color: green;
+  background: yellow;
 }

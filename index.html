@@ -1,113 +1,94 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka html</a>
-            <a href="tajlandia.html">Tajlandia</a>
-
-
-
-        </nav>
+      <nav class="navigation">
+        <a class="navigation__index navigation__index--stronagłówna" href="index.html">Strona główna</a>
+        <a class="navigation__index navigation__index--naukahtml" href="nauka-html.html">Nauka html</a>
+        <a class="navigation__index navigation__index--tajlandia" href="tajlandia.html">Tajlandia</a>
+      </nav>
     </header>
     <main>
+      <header>
+        <h1 id="main-header">TAJLANDIA MOJA PODRÓŻ</h1>
+      </header>
 
-        <header>
-            <h1 id="main-header">TAJLANDIA MOJA PODRÓŻ</h1>
-        </header>
+      <section>
+        <h2 class="green-link">SEKCJA PIERWSZA</h2>
+        <article>
+          <h2 class="turkus-hot">Bangkok</h2>
+        </article>
 
+        <img src="Bangkok.jpg" alt="Bangkok" />
 
-        <section>
-            <h2 class="green-link">SEKCJA PIERWSZA</h2>
-            <article>
-                <h2 class="turkus-hot">Bangkok</h2>
-
-            </article>
-
-            <img src="Bangkok.jpg" alt="Bangkok" />
-            <img src="Bangkok.jpg" alt="Bangkok"/>
-            <img src="Bangkok.jpg" alt="Bangkok"/>
-            <img src="Bangkok.jpg" alt="Bangkok"/>
+        <p>HTML nadaje sensu treści ,opakowuje ją (nagłówki, wcięcia)
+        CSS warstwa prezentacji, nadaje wygląd wcześniejszym warstwą
+        JAVA SCRIPT (JS) warstwa interakcji</p>
         
+      </section>
 
-            <p class="turkus-hot">1- HTML nadaje sensu treści ,opakowuje ją (nagłówki, wcięcia)</p>
-            <p>2- CSS warstwa prezentacji, nadaje wygląd wcześniejszym warstwą</p>
-            <p>3-JAVA SCRIPT (JS) warstwa interakcji</p>
-        </section>
+      <section id="notatki">
+        <h2 class="green-link-2">SEKCJA DRUGA</h2>
 
+        <article>
+          <h3 class="turkus-hot">Franki z karpiem.</h3>
 
+          <p>
+            HTML wpływa na treść. SS wpływa na HTML może zmienić wygląd tych
+            elementów ,kolor ,fonty itp.
+          </p>
+          <p>
+            <a href="https://coffeedesk.pl">Coffeedesk</a> Wpływa zarówno na CSS
+            jak i może modyfikować HTML i treść.Każda z tych warstw ma swoją
+            odpowiedzialność i TEGO SIĘ TRZYMAJMY. To znaczy jeśli możemy coś
+            zrobić tylko za pomocą HTML bez JS ,to zróbmy to i nie mieszajmy do
+            tego Java Script!!!
+          </p>
+          <p>
+            TML wpływa na treść. Wpływa zarówno na CSS jak i może modyfikować
+            HTML i treść.Każda z tych warstw ma swoją odpowiedzialność i TEGO
+            SIĘ TRZYMAJMY. To znaczy jeśli możemy coś zrobić tylko za pomocą
+            HTML bez JS ,to zróbmy to i nie mieszajmy do tego Java Script!!!
+          </p>
+        </article>
 
-        <section id="notatki">
-            <h2 class="green-link-2">SEKCJA DRUGA</h2>
-            <img src="Franki z karpiem.jpg" alt="Franki z karpiem" />
-            <img src="Franki z karpiem.jpg" alt="Franki z karpiem" />
+        <article>
+          <h3 class="turkus-hot">Treść próbna</h3>
+          <p>
+            HTML wpływa na treść. Wpływa zarówno na CSS jak i może modyfikować
+            HTML i treść.Każda z tych warstw ma swoją odpowiedzialność i TEGO
+            SIĘ TRZYMAJMY. To znaczy jeśli możemy coś zrobić tylko za pomocą
+            HTML bez JS ,to zróbmy to i nie mieszajmy do tego Java Script!!!
+          </p>
+        </article>
+      </section>
 
+      <section>
+        <h2 class="green-link">SEKCJA TRZECIA</h2>
 
-            <article>
-                <h3 class="turkus-hot">Franki z karpiem.</h3>
-                <p>HTML wpływa na treść.
-                    SS wpływa na HTML może zmienić wygląd tych elementów ,kolor ,fonty itp.<p><a
-                            href="https://coffeedesk.pl">Coffeedesk</a>
-                        Wpływa zarówno na CSS jak i może modyfikować HTML i treść.Każda z tych warstw ma swoją
-                        odpowiedzialność i TEGO SIĘ TRZYMAJMY.
-                        To znaczy jeśli możemy coś zrobić tylko za pomocą HTML bez JS ,to zróbmy to i nie mieszajmy do
-                        tego Java Script!!!</p>
-                    <p>TML wpływa na treść.
-                        Wpływa zarówno na CSS jak i może modyfikować HTML i treść.Każda z tych warstw ma swoją
-                        odpowiedzialność i TEGO SIĘ TRZYMAJMY.
-                        To znaczy jeśli możemy coś zrobić tylko za pomocą HTML bez JS ,to zróbmy to i nie mieszajmy do
-                        tego Java Script!!!</p>
-
-            </article>
-
-            <article>
-                <h3 class="turkus-hot">Treść próbna</h3>
-                <p>HTML wpływa na treść.
-                    Wpływa zarówno na CSS jak i może modyfikować HTML i treść.Każda z tych warstw ma swoją
-                    odpowiedzialność i TEGO SIĘ TRZYMAJMY.
-                    To znaczy jeśli możemy coś zrobić tylko za pomocą HTML bez JS ,to zróbmy to i nie mieszajmy do
-                    tego Java Script!!!</p>
-            </article>
-
-        </section>
-
-        <section>
-            <h2 class="green-link">SEKCJA TRZECIA</h2>
-
-            <article>
-                <h3 class="turkus-hot">Treść próbna</h3>
-                <p>HTML wpływa na treść.
-                    Wpływa zarówno na CSS jak i może modyfikować HTML i treść.Każda z tych warstw ma swoją
-                    odpowiedzialność i TEGO SIĘ TRZYMAJMY.
-                    To znaczy jeśli możemy coś zrobić tylko za pomocą HTML bez JS ,to zróbmy to i nie mieszajmy do
-                    tego Java Script!!!</p>
-            </article>
-
-
-        </section>
-
-
-
-
-
-
+        <article>
+          <h3 class="turkus-hot">Treść próbna</h3>
+          <p>
+            HTML wpływa na treść. Wpływa zarówno na CSS jak i może modyfikować
+            HTML i treść.Każda z tych warstw ma swoją odpowiedzialność i TEGO
+            SIĘ TRZYMAJMY. To znaczy jeśli możemy coś zrobić tylko za pomocą
+            HTML bez JS ,to zróbmy to i nie mieszajmy do tego Java Script!!!
+          </p>
+        </article>
+      </section>
     </main>
     <footer>
-        <h4 class="red-hotpink">„CONTENT IS KING”To jest tzw. STOPKA</h4>
-        <p><b>Treść na stronie internetowej jest najważniejsza.</b></p>
-        <p>Dodatkowa treść</p>
+      <h4 class="red-hotpink">„CONTENT IS KING”To jest tzw. STOPKA</h4>
+      <p><b>Treść na stronie internetowej jest najważniejsza.</b></p>
+      <p>Dodatkowa treść</p>
     </footer>
     <script src="main.js"></script>
-
-</body>
+  </body>
+</html>
